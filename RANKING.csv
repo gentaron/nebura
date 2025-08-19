@@ -1,0 +1,301 @@
+Rank,Gender,Real Name,Alias,Recognition (%),Victories,Win Rate (%),Total Battles,Age,MBTI
+1,Male,Ozarn Kael,Thunderstrike,99,412,94.5,436,42,ENTJ
+2,Non-binary,Bashou Rei,Nova Pulse,98,389,93.7,415,38,INTJ
+3,Female,Layla Virell Nova,Pink Voltage,96,312,92,339,29,ESFP
+4,Female,Eryona Tazara,Eryona,94,351,91.2,385,34,ESTP
+5,Non-binary,Vell Synthara,Vell,92,297,90,330,37,INTP
+6,Male,Kiran Holt,Blaze Warden,90,280,89.2,314,31,ENFJ
+7,Transgender Female,Sana Vey,Star Vindicator,88,265,88.3,300,28,INFJ
+8,Female,Mira Kade,Shadow Ember,86,250,87.4,286,33,ISTP
+9,Male,Draven Zol,Crimson Bolt,84,240,86.6,277,30,ESTJ
+10,Agender,Teryn Quill,Neon Phantom,82,230,85.8,268,35,ENTP
+11,Female,Seraphine Alira,Seraphine,80,182,84.3,216,27,INFP
+12,Male,Jiro Tan,Steel Ronin,79,200,83.7,239,32,ISTJ
+13,Transgender Male,Kael Ryn,Iron Vortex,78,195,82.6,236,29,ENFP
+14,Non-binary,Luna Vex,Lunar Fang,77,190,81.9,232,34,ISFP
+15,Female,Jessica Myra,Jessica,76,165,80.5,205,26,ESFJ
+16,Male,Zane Corvus,Thundercoil,75,180,79.6,226,31,ENTP
+17,Female,Aria Selene,Prism Wraith,74,175,78.8,222,28,INTP
+18,Non-binary,Ryn Solaris,Glint Reaver,73,170,78,218,33,ISTP
+19,Male,Hogan Brant,Hogan,72,142,76.3,186,39,ESTP
+20,Female,Nia Varo,Aurora Slash,71,160,75.5,212,30,ENFJ
+21,Transgender Female,Lila Zeryn,Flux Siren,70,155,74.6,208,27,INFJ
+22,Male,Tor Kade,Obsidian Claw,69,150,73.9,203,34,ISTJ
+23,Non-binary,Sylen Astra,Starforge,68,145,73.2,198,32,ENTJ
+24,Female,Elara Vyn,Celestine Spark,67,140,72.5,193,29,ESFP
+25,Male,Cade Orion,Night Pulse,66,135,71.8,188,31,INFP
+26,Female,Jasmine Kora,Jasmine,65,103,70.5,146,26,ESTJ
+27,Transgender Male,Vex Toran,Void Striker,64,130,70.3,185,28,ENFP
+28,Non-binary,Zara Klyn,Chroma Blade,63,125,69.4,180,33,ISFP
+29,Female,Sylis Rhea,Ember Flux,62,120,68.6,175,30,ESFJ
+30,Male,Kor Zenith,Storm Carver,61,115,67.6,170,35,ENTP
+31,Agender,Ryn Thalor,Shade Vortex,60,110,66.7,165,32,INTP
+32,Female,Mira Vael,Glacier Fang,59,105,65.6,160,27,INFJ
+33,Non-binary,Teryn Sol,Arc Reaver,58,100,64.5,155,29,ISTP
+34,Female,Ayaka Rin,Bikini Briefs Superhero,57,95,63.3,150,29,ESFP
+35,Female,Reiko Sana,Reiko,56,92,62.2,148,31,INTJ
+36,Male,Jax Korr,Cipher Blaze,55,90,61.2,147,34,ESTJ
+37,Transgender Female,Lyn Vara,Nova Wisp,54,88,60.3,146,28,ENFJ
+38,Non-binary,Sel Vyn,Shade Pulse,53,86,59.3,145,33,ISFP
+39,Female,Eryn Zara,Starcoil,52,84,58.3,144,30,INFJ
+40,Male,Tor Sylis,Obsidian Spark,51,82,57.3,143,32,ENTP
+41,Agender,Kael Ryn,Neon Fang,50,80,56.3,142,29,INTP
+42,Female,Nia Vex,Thunder Ember,49,78,55.3,141,27,ESFJ
+43,Non-binary,Zane Quill,Glint Carver,48,76,54.3,140,31,ISTP
+44,Male,Cade Varo,Prism Bolt,47,74,53.2,139,35,ESTP
+45,Transgender Male,Sylen Kade,Flux Reaver,46,72,52.2,138,28,ENFP
+46,Female,Lila Toran,Aurora Wraith,45,70,51.1,137,30,INFP
+47,Non-binary,Jiro Vyn,Storm Vindicator,44,68,50,136,33,ENTJ
+48,Male,Aria Korr,Celestine Claw,43,66,48.9,135,29,ISTJ
+49,Female,Sana Rhea,Shadow Flux,42,64,47.8,134,27,ESFP
+50,Transgender Female,Zara Orion,Night Vortex,41,62,46.6,133,31,INFJ
+51,Male,Kor Thalor,Blaze Siren,40,60,45.5,132,34,ENTP
+52,Non-binary,Eryn Solaris,Star Pulse,39,58,44.3,131,32,ISFP
+53,Female,Teryn Vael,Iron Ember,38,56,43.1,130,28,ESTJ
+54,Agender,Vex Klyn,Neon Striker,37,54,41.9,129,30,INTP
+55,Male,Lyn Varo,Thunder Wisp,36,52,40.6,128,33,ENFJ
+56,Female,Sylis Zara,Glint Fang,35,50,39.4,127,27,INFJ
+57,Transgender Male,Jax Ryn,Shade Bolt,34,48,38.1,126,29,ESTP
+58,Non-binary,Nia Vex,Prism Carver,33,46,36.8,125,31,ISFP
+59,Female,Cade Kora,Flux Spark,32,44,35.5,124,28,ESFJ
+60,Male,Tor Sylen,Obsidian Reaver,31,42,34.1,123,34,ENTP
+61,Agender,Aria Quill,Aurora Pulse,30,40,32.8,122,30,INTP
+62,Female,Kael Vyn,Storm Wraith,29,38,31.4,121,27,INFJ
+63,Non-binary,Zane Toran,Celestine Vindicator,28,36,30,120,32,ESTJ
+64,Male,Sana Kade,Shadow Claw,27,34,28.6,119,29,ENFP
+65,Transgender Female,Lila Rhea,Night Ember,26,32,27.1,118,31,ISFP
+66,Female,Jiro Varo,Blaze Fang,25,30,25.6,117,28,ESFP
+67,Male,Eryn Solaris,Star Bolt,24,28,24.1,116,33,ENTJ
+68,Non-binary,Teryn Korr,Iron Pulse,23,26,22.6,115,30,ISTP
+69,Female,Vex Vyn,Neon Siren,22,24,21.1,114,27,INFJ
+70,Agender,Kor Zara,Thunder Striker,21,22,19.5,113,32,INTP
+71,Male,Sylis Ryn,Glint Wisp,20,20,17.9,112,29,ESTP
+72,Transgender Male,Nia Thalor,Shade Carver,19,18,16.2,111,28,ENFP
+73,Female,Cade Vex,Prism Flux,18,16,14.5,110,31,ESFJ
+74,Non-binary,Aria Klyn,Flux Reaver,17,14,12.7,109,30,ISTJ
+75,Male,Lyn Toran,Aurora Bolt,16,12,11,109,33,ENTP
+76,Female,Zane Varo,Storm Spark,15,10,9.2,108,27,INFJ
+77,Agender,Jiro Quill,Celestine Fang,14,8,7.4,108,29,INTP
+78,Non-binary,Sana Rhea,Shadow Pulse,13,6,5.6,107,31,ESTP
+79,Female,Teryn Kade,Night Wraith,12,4,3.7,107,28,ESFP
+80,Male,Kael Solaris,Blaze Vindicator,11,3,2.8,107,32,ENTJ
+81,Transgender Female,Vex Vyn,Star Ember,10,2,1.9,106,30,INFJ
+82,Female,Eryn Korr,Iron Claw,9,1,0.9,106,27,ISFP
+83,Non-binary,Cade Zara,Neon Bolt,8,0,0,105,29,INTP
+84,Male,Lila Vex,Thunder Reaver,7.8,0,0,104,31,ESTJ
+85,Agender,Nia Ryn,Glint Siren,7.6,0,0,103,28,ENFP
+86,Female,Tor Thalor,Shade Wisp,7.4,0,0,102,30,INFJ
+87,Male,Sylis Kade,Prism Striker,7.2,0,0,101,27,ESFJ
+88,Transgender Male,Jax Varo,Flux Fang,7,0,0,100,29,ISTP
+89,Non-binary,Aria Solaris,Aurora Carver,6.8,0,0,99,31,ENTP
+90,Female,Kael Vyn,Storm Bolt,6.6,0,0,98,28,INFP
+91,Male,Zane Quill,Celestine Pulse,6.4,0,0,97,30,ESTP
+92,Agender,Sana Toran,Shadow Spark,6.2,0,0,96,27,INFJ
+93,Female,Lyn Rhea,Night Vindicator,6,0,0,95,29,ISFP
+94,Non-binary,Jiro Klyn,Blaze Wraith,5.8,0,0,94,31,ENTJ
+95,Male,Teryn Vex,Star Flux,5.6,0,0,93,28,INTP
+96,Transgender Female,Cade Ryn,Iron Reaver,5.4,0,0,92,30,ESFJ
+97,Female,Vex Kora,Neon Pulse,5.2,0,0,91,27,INFJ
+98,Agender,Eryn Zara,Thunder Claw,5,0,0,90,29,ESTP
+99,Male,Nia Solaris,Glint Bolt,4.8,0,0,89,31,ENFP
+100,Non-binary,Kael Varo,Shade Siren,4.6,0,0,88,28,ISFP
+101,Female,Sylen Rhea,Void Spark,4.4,0,0,87,27,ESFP
+102,Male,Zor Kael,Arc Pulse,4.2,0,0,86,30,ENTJ
+103,Transgender Male,Lira Vyn,Star Wisp,4,0,0,85,29,INFP
+104,Non-binary,Tor Zeryn,Glacier Bolt,3.9,0,0,84,31,ISTP
+105,Female,Nia Korr,Flux Wraith,3.8,0,0,83,28,INFJ
+106,Agender,Vex Solaris,Night Fang,3.7,0,0,82,27,INTP
+107,Male,Jax Thalor,Obsidian Pulse,3.6,0,0,81,30,ESTJ
+108,Transgender Female,Aria Klyn,Prism Siren,3.5,0,0,80,29,ENFJ
+109,Non-binary,Sana Varo,Shade Carver,3.4,1,1.3,79,31,ISFP
+110,Female,Kael Ryn,Thunder Flux,3.3,1,1.3,78,28,ESFP
+111,Male,Zane Vex,Celestine Reaver,3.2,1,1.3,77,27,ENTP
+112,Agender,Lyn Toran,Neon Wisp,3.1,1,1.3,76,30,INFP
+113,Female,Teryn Kade,Storm Claw,3,1,1.4,75,29,INFJ
+114,Non-binary,Jiro Solaris,Blaze Striker,2.9,1,1.4,74,31,ISTJ
+115,Male,Cade Zara,Star Bolt,2.8,1,1.4,73,28,ESTP
+116,Transgender Male,Vex Rhea,Iron Spark,2.7,1,1.4,72,27,ENFP
+117,Female,Sylen Vyn,Aurora Fang,2.6,1,1.4,71,30,ESFJ
+118,Non-binary,Nia Quill,Glint Pulse,2.5,1,1.4,70,29,ISFP
+119,Male,Tor Klyn,Shadow Reaver,2.4,1,1.5,69,31,ENTJ
+120,Agender,Aria Varo,Flux Siren,2.3,1,1.5,68,28,INTP
+121,Female,Kael Thalor,Night Wraith,2.2,1,1.5,67,27,INFJ
+122,Transgender Female,Zane Korr,Prism Vindicator,2.1,1,1.5,66,30,ESFP
+123,Non-binary,Lyn Solaris,Thunder Carver,2,1,1.5,65,29,ENTP
+124,Male,Sana Vex,Obsidian Bolt,1.9,1,1.6,64,31,ISTP
+125,Female,Jiro Ryn,Star Wisp,1.8,1,1.6,63,28,INFP
+126,Agender,Teryn Zara,Neon Claw,1.7,1,1.6,62,27,INFJ
+127,Male,Cade Toran,Shade Flux,1.6,2,3.3,61,30,ESTJ
+128,Non-binary,Vex Kael,Aurora Pulse,1.5,2,3.3,60,29,ISFP
+129,Female,Sylen Klyn,Blaze Fang,1.4,2,3.4,59,31,ESFJ
+130,Transgender Male,Nia Varo,Glint Striker,1.4,2,3.4,58,28,ENFP
+131,Male,Aria Quill,Iron Wraith,1.3,2,3.5,57,27,ENTJ
+132,Non-binary,Kael Rhea,Storm Siren,1.3,2,3.6,56,30,INTP
+133,Female,Zane Thalor,Celestine Spark,1.2,2,3.6,55,29,INFJ
+134,Agender,Tor Vex,Flux Bolt,1.2,2,3.7,54,31,ESTP
+135,Male,Lyn Korr,Prism Wisp,1.1,2,3.8,53,28,ISFP
+136,Transgender Female,Jiro Solaris,Thunder Fang,1.1,2,3.8,52,27,ENFJ
+137,Non-binary,Sana Zara,Night Carver,1.1,2,4,50,30,INFP
+138,Female,Cade Vyn,Obsidian Siren,1,3,6,50,29,ESFP
+139,Male,Vex Toran,Star Reaver,1,3,6,50,31,ENTP
+140,Agender,Nia Klyn,Glint Wraith,1,3,6,50,28,INFJ
+141,Female,Sylen Ryn,Aurora Claw,1,3,6,50,27,ISTJ
+142,Non-binary,Aria Varo,Shade Bolt,1,3,6,50,30,ISFP
+143,Male,Kael Quill,Neon Vindicator,1,3,6,50,29,ESTJ
+144,Transgender Male,Zane Kade,Blaze Pulse,1,3,6,50,31,ENFP
+145,Female,Teryn Vex,Storm Flux,1,4,8,50,28,INFJ
+146,Non-binary,Lyn Solaris,Iron Fang,1,4,8,50,27,ENTJ
+147,Male,Jiro Thalor,Celestine Wisp,1,4,8,50,30,INTP
+148,Agender,Sana Korr,Thunder Spark,1,4,8,50,29,ESFJ
+149,Female,Cade Zara,Prism Siren,1,4,8,50,31,ISFP
+150,Transgender Female,Vex Rhea,Glint Carver,1,4,8,50,28,ENFP
+151,Female,Nia Vex,Pulse Wraith,1,4,8,50,27,INFJ
+152,Male,Kael Zara,Void Claw,1,4,8.2,49,30,ESTP
+153,Non-binary,Sylen Korr,Star Flux,1,3,6.1,49,29,ISFP
+154,Transgender Male,Aria Ryn,Neon Spark,0.9,3,6.3,48,28,ENFP
+155,Agender,Zane Varo,Glint Wisp,0.9,3,6.3,48,26,INTP
+156,Female,Teryn Quill,Shade Bolt,0.9,3,6.4,47,27,ESFJ
+157,Male,Jiro Thalor,Thunder Siren,0.9,3,6.4,47,31,ENTJ
+158,Non-binary,Lyn Kade,Blaze Carver,0.9,2,4.3,46,29,ISTP
+159,Transgender Female,Vex Solaris,Iron Pulse,0.9,2,4.3,46,28,INFJ
+160,Female,Cade Toran,Prism Fang,0.8,2,4.4,45,26,ESFP
+161,Male,Ryn Klyn,Aurora Reaver,0.8,2,4.4,45,30,ENFJ
+162,Agender,Sana Vyn,Celestine Wraith,0.8,2,4.5,44,27,INFP
+163,Non-binary,Zora Kael,Flux Striker,0.8,2,4.5,44,29,ISTJ
+164,Female,Tor Rhea,Night Bolt,0.8,2,4.7,43,28,ENTP
+165,Male,Nia Solaris,Obsidian Spark,0.8,2,4.7,43,31,ISFP
+166,Transgender Male,Kael Vex,Star Wisp,0.7,1,2.4,42,27,ENFP
+167,Female,Sylen Zara,Glint Siren,0.7,1,2.4,42,26,INFJ
+168,Non-binary,Aria Korr,Shade Pulse,0.7,1,2.4,41,29,ESTJ
+169,Male,Jiro Varo,Thunder Flux,0.7,1,2.4,41,30,ENTJ
+170,Agender,Lyn Ryn,Blaze Wraith,0.7,1,2.5,40,28,INTP
+171,Female,Vex Kade,Iron Claw,0.7,1,2.5,40,27,ESFJ
+172,Transgender Female,Cade Quill,Neon Vindicator,0.6,1,2.6,39,26,INFJ
+173,Non-binary,Zane Thalor,Pulse Bolt,0.6,1,2.6,39,29,ISFP
+174,Male,Teryn Vyn,Void Siren,0.6,1,2.6,38,31,ESTP
+175,Female,Ryn Solaris,Star Carver,0.6,1,2.6,38,28,ENFP
+176,Non-binary,Nia Klyn,Glint Reaver,0.6,0,0,37,27,INFP
+177,Agender,Sana Toran,Shade Fang,0.6,0,0,37,26,ISTP
+178,Female,Kael Zara,Aurora Wisp,0.5,0,0,36,29,INFJ
+179,Male,Aria Vex,Celestine Pulse,0.5,0,0,36,30,ENTJ
+180,Transgender Male,Jiro Rhea,Flux Wraith,0.5,0,0,35,28,ESFJ
+181,Non-binary,Lyn Korr,Night Spark,0.5,0,0,35,27,ISFP
+182,Female,Vex Quill,Obsidian Bolt,0.5,0,0,34,26,ENFP
+183,Male,Cade Varo,Prism Siren,0.5,0,0,34,29,INTP
+184,Agender,Zane Kade,Thunder Wisp,0.5,0,0,33,31,ESTP
+185,Female,Teryn Solaris,Blaze Flux,0.5,0,0,33,28,INFJ
+186,Non-binary,Nia Ryn,Iron Wraith,0.5,0,0,32,27,ISTJ
+187,Transgender Female,Sylen Vex,Neon Claw,0.5,0,0,32,26,ESFP
+188,Male,Kael Toran,Shade Reaver,0.5,0,0,31,30,ENTP
+189,Female,Aria Zara,Glint Bolt,0.5,0,0,31,29,INFP
+190,Non-binary,Jiro Klyn,Pulse Siren,0.5,0,0,30,28,INFJ
+191,Agender,Lyn Varo,Void Wisp,0.5,0,0,30,27,ISFP
+192,Male,Vex Thalor,Star Fang,0.5,0,0,30,31,ESTJ
+193,Female,Cade Rhea,Aurora Spark,0.5,0,0,30,26,ENFJ
+194,Non-binary,Zane Quill,Celestine Claw,0.5,0,0,30,29,INTP
+195,Transgender Male,Nia Korr,Flux Pulse,0.5,0,0,30,28,ESFJ
+196,Female,Teryn Vyn,Night Siren,0.5,0,0,30,27,INFJ
+197,Male,Kael Solaris,Obsidian Wisp,0.5,0,0,30,30,ENTP
+198,Non-binary,Sylen Kade,Prism Flux,0.5,0,0,30,29,ISFP
+199,Female,Aria Toran,Thunder Bolt,0.5,0,0,30,26,ENFP
+200,Agender,Jiro Zara,Shade Carver,0.5,0,0,30,28,INTP
+201,Male,Vex Zoryn,Dusk Shard,0.5,0,0,30,29,ESTP
+202,Female,Kalia Sorv,Void Flicker,0.5,0,0,30,27,INFJ
+203,Non-binary,Ryn Tael,Glint Haze,0.5,0,0,29,28,ISFP
+204,Transgender Male,Zor Vyn,Neon Drift,0.5,0,0,29,26,ENFP
+205,Agender,Syl Kade,Pulse Glimmer,0.5,0,0,28,25,INTP
+206,Female,Nia Quill,Shade Mist,0.5,0,0,28,27,ESFJ
+207,Male,Jiro Klyn,Star Veil,0.5,0,0,27,30,ENTJ
+208,Non-binary,Lyn Rhea,Flux Shadow,0.5,0,0,27,29,ISTP
+209,Transgender Female,Aria Vex,Iron Gleam,0.5,0,0,26,28,INFJ
+210,Female,Cade Toran,Prism Whisper,0.5,0,0,26,26,ESFP
+211,Male,Kael Solaris,Aurora Hiss,0.4,0,0,25,29,ENFJ
+212,Agender,Zane Korr,Celestine Daze,0.4,0,0,25,27,INFP
+213,Non-binary,Teryn Zara,Night Ripple,0.4,0,0,24,28,ISTJ
+214,Female,Vex Ryn,Obsidian Murk,0.4,0,0,24,26,ENTP
+215,Male,Sana Varo,Thunder Gloom,0.4,0,0,23,30,ISFP
+216,Transgender Male,Nia Thalor,Blaze Echo,0.4,1,4.3,23,27,ENFP
+217,Female,Ryn Kade,Glint Vapor,0.4,1,4.5,22,25,INFJ
+218,Non-binary,Jiro Vyn,Shade Breeze,0.4,1,4.5,22,28,ESFJ
+219,Male,Aria Quill,Neon Shimmer,0.4,1,4.8,21,29,ESTP
+220,Agender,Kalia Sorv,Pulse Flick,0.4,1,4.8,21,26,INTP
+221,Female,Vex Tael,Star Murmur,0.3,1,5,20,27,INFJ
+222,Transgender Female,Zor Klyn,Flux Glint,0.3,1,5,20,25,ESFP
+223,Non-binary,Syl Vex,Iron Haze,0.3,1,5.3,19,28,ISFP
+224,Male,Nia Rhea,Prism Shade,0.3,1,5.3,19,29,ENTJ
+225,Female,Cade Varo,Aurora Mist,0.3,1,5.6,18,26,ENFJ
+226,Agender,Kael Toran,Celestine Veil,0.3,0,0,18,27,INFP
+227,Non-binary,Lyn Solaris,Night Whisper,0.3,0,0,17,28,ISTP
+228,Male,Teryn Korr,Obsidian Drift,0.3,0,0,17,25,ENTP
+229,Female,Jiro Zara,Thunder Hiss,0.3,0,0,16,26,INFJ
+230,Transgender Male,Sana Kade,Blaze Gloom,0.3,0,0,16,29,ESFJ
+231,Non-binary,Ryn Quill,Glint Echo,0.2,0,0,15,27,ISFP
+232,Female,Vex Sorv,Shade Ripple,0.2,0,0,15,25,ENFP
+233,Male,Zor Tael,Neon Murmur,0.2,0,0,14,28,INTP
+234,Agender,Kalia Vyn,Pulse Shadow,0.2,0,0,14,26,INFJ
+235,Non-binary,Nia Klyn,Star Breeze,0.2,0,0,13,29,ESTP
+236,Female,Aria Varo,Flux Vapor,0.2,0,0,13,27,ESFP
+237,Male,Syl Rhea,Iron Glimmer,0.2,0,0,12,25,ENTJ
+238,Transgender Female,Cade Thalor,Prism Haze,0.2,0,0,12,28,INFP
+239,Non-binary,Kael Vex,Aurora Shimmer,0.2,0,0,11,26,ISTJ
+240,Female,Lyn Toran,Celestine Flick,0.2,0,0,11,29,INFJ
+241,Male,Jiro Solaris,Night Gloom,0.1,0,0,10,27,ENFJ
+242,Agender,Teryn Kade,Obsidian Whisper,0.1,0,0,10,25,ISFP
+243,Non-binary,Vex Zara,Thunder Mist,0.1,0,0,10,28,ENTP
+244,Female,Sana Quill,Blaze Veil,0.1,0,0,10,26,INFJ
+245,Male,Ryn Sorv,Glint Drift,0.1,0,0,10,29,ESFJ
+246,Transgender Male,Zor Korr,Shade Hiss,0.1,0,0,10,27,ENFP
+247,Female,Nia Tael,Neon Echo,0.1,0,0,10,25,INTP
+248,Non-binary,Kalia Varo,Pulse Murmur,0.1,0,0,10,28,ISTP
+249,Male,Aria Klyn,Star Shadow,0.1,0,0,10,26,INFJ
+250,Agender,Syl Vyn,Flux Breeze,0.1,0,0,10,29,ESFP
+251,Female,Cade Rhea,Iron Ripple,0.1,0,0,10,27,ENTJ
+252,Transgender Female,Kael Solaris,Prism Glint,0.1,0,0,10,25,INFP
+253,Non-binary,Lyn Quill,Aurora Haze,0.1,0,0,10,28,INFJ
+254,Male,Teryn Toran,Celestine Vapor,0.1,0,0,10,26,ISFP
+255,Female,Jiro Kade,Night Shimmer,0.1,0,0,10,29,ESTP
+256,Agender,Vex Varo,Obsidian Flick,0.1,0,0,10,27,ENFJ
+257,Non-binary,Sana Sorv,Thunder Gloom,0.1,0,0,10,25,INTP
+258,Male,Ryn Tael,Blaze Whisper,0.1,0,0,10,28,INFJ
+259,Female,Zor Klyn,Glint Mist,0.1,0,0,10,26,ESFJ
+260,Transgender Male,Kalia Zara,Shade Veil,0.1,0,0,10,29,ENFP
+261,Non-binary,Nia Vyn,Neon Drift,0.1,0,0,10,27,ISTP
+262,Female,Aria Solaris,Pulse Hiss,0.1,0,0,10,25,INFJ
+263,Male,Syl Rhea,Star Echo,0.1,0,0,10,28,ESFP
+264,Agender,Cade Korr,Flux Shadow,0.1,0,0,10,26,INFP
+265,Non-binary,Kael Thalor,Iron Murmur,0.1,0,0,10,29,ENTJ
+266,Female,Lyn Varo,Prism Breeze,0.1,0,0,10,27,INFJ
+267,Male,Teryn Quill,Aurora Glimmer,0.1,0,0,10,25,ISFP
+268,Transgender Female,Jiro Kade,Celestine Haze,0.1,0,0,10,28,ESTP
+269,Non-binary,Vex Toran,Night Ripple,0.1,0,0,10,26,ENFJ
+270,Female,Sana Solaris,Obsidian Vapor,0.1,0,0,10,29,INFJ
+271,Male,Ryn Zara,Thunder Shimmer,0.1,0,0,10,27,INTP
+272,Agender,Zor Vex,Blaze Flick,0.1,0,0,10,25,ESFJ
+273,Non-binary,Kalia Sorv,Glint Gloom,0.1,0,0,10,28,ENFP
+274,Female,Nia Klyn,Shade Whisper,0.1,0,0,10,26,INFJ
+275,Male,Aria Tael,Neon Mist,0.1,0,0,10,29,ISTP
+276,Transgender Male,Syl Varo,Pulse Veil,0.1,0,0,10,27,ESFP
+277,Non-binary,Cade Rhea,Star Hiss,0.1,0,0,10,25,INFJ
+278,Female,Kael Quill,Flux Echo,0.1,0,0,10,28,INFP
+279,Male,Lyn Solaris,Iron Drift,0.1,0,0,10,26,ENTJ
+280,Agender,Teryn Korr,Prism Shadow,0.1,0,0,10,29,ISFP
+281,Non-binary,Jiro Vyn,Aurora Murmur,0.1,0,0,10,27,ESTP
+282,Female,Vex Thalor,Celestine Glint,0.1,0,0,10,25,INFJ
+283,Male,Sana Kade,Night Haze,0.1,0,0,10,28,ENFJ
+284,Transgender Female,Ryn Toran,Obsidian Breeze,0.1,0,0,10,26,INTP
+285,Non-binary,Zor Zara,Thunder Vapor,0.1,0,0,10,29,ESFJ
+286,Female,Kalia Solaris,Blaze Shimmer,0.1,0,0,10,27,INFJ
+287,Male,Nia Vex,Glint Flick,0.1,0,0,10,25,ENFP
+288,Agender,Aria Sorv,Shade Gloom,0.1,0,0,10,28,ISTP
+289,Non-binary,Syl Tael,Neon Whisper,0.1,0,0,10,26,INFJ
+290,Female,Cade Klyn,Pulse Mist,0.1,0,0,10,29,ESFP
+291,Male,Kael Rhea,Star Veil,0.1,0,0,10,27,INFP
+292,Transgender Male,Lyn Varo,Flux Hiss,0.1,0,0,10,25,INFJ
+293,Non-binary,Teryn Solaris,Iron Echo,0.1,0,0,10,28,ESTP
+294,Female,Jiro Quill,Prism Drift,0.1,0,0,10,26,INFJ
+295,Male,Vex Korr,Aurora Shadow,0.1,0,0,10,29,ISFP
+296,Agender,Sana Tael,Celestine Murmur,0.1,0,0,10,27,ENFJ
+297,Non-binary,Ryn Vyn,Night Glint,0.1,0,0,10,25,INFJ
+298,Female,Zor Sorv,Obsidian Haze,0.1,0,0,10,28,INTP
+299,Male,Kalia Zara,Thunder Breeze,0.1,0,0,10,26,ESFJ
+300,Transgender Female,Nia Kade,Blaze Vapor,0.1,0,0,10,29,ENFP
