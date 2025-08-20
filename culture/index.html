@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文化・芸術一覧 - E16星系百科事典</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <h1 class="site-title"><a href="../index.html" style="color: inherit; text-decoration: none;">E16星系百科事典</a></h1>
+            <nav class="main-nav">
+                <a href="../index.html">ホーム</a>
+                <a href="../people/">人物</a>
+                <a href="../places/">場所</a>
+                <a href="../technology/">技術</a>
+                <a href="../events/">事件</a>
+                <a href="../medical/">医学</a>
+                <a href="../culture/">文化</a>
+                <a href="../movements/">運動</a>
+            </nav>
+            <div class="search-box">
+                <input type="text" placeholder="記事を検索..." id="searchInput">
+                <button id="searchBtn">検索</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <header class="category-header">
+            <h1>文化・芸術一覧</h1>
+            <p>E16星系で発展した独特の文化、芸術形式、祭典イベントの詳細な記録です。</p>
+        </header>
+
+        <section class="culture-grid">
+            <div class="culture-card">
+                <h3><a href="squeezing-art.html">搾取アート</a></h3>
+                <div class="culture-meta">
+                    <span class="category">芸術形式</span>
+                    <span class="origin">Eros-7</span>
+                    <span class="era">マトリカル社会期</span>
+                </div>
+                <p>搾取技術と芸術の融合により生まれた革新的な芸術形式。搾取生物の発光現象や生体エネルギーを利用したインスタレーション、パフォーマンスアートが特徴。</p>
+            </div>
+
+            <div class="culture-card">
+                <h3><a href="festival-of-flare.html">フェスティバル・オブ・フレア</a></h3>
+                <div class="culture-meta">
+                    <span class="category">祭典</span>
+                    <span class="origin">Eros-7</span>
+                    <span class="era">年次開催</span>
+                </div>
+                <p>Eros-7で毎年開催される搾取技術の祭典。ネオンクレーターの発光現象と搾取アートが融合した、E16星系最大の文化イベント。</p>
+            </div>
+
+            <div class="culture-card">
+                <h3><a href="interstellar-arts-festival.html">星間芸術祭</a></h3>
+                <div class="culture-meta">
+                    <span class="category">星系間イベント</span>
+                    <span class="origin">E16星系</span>
+                    <span class="era">第四次繁栄期</span>
+                </div>
+                <p>星々の交響曲とEros-7の文化交流を促進する芸術祭。次元極地平技術による仮想空間展示と搾取アートの競演が見どころ。</p>
+            </div>
+
+            <div class="culture-card">
+                <h3><a href="fifth-prosperity-festival.html">第五次繁栄フェスティバル</a></h3>
+                <div class="culture-meta">
+                    <span class="category">記念祭典</span>
+                    <span class="origin">星々の交響曲</span>
+                    <span class="era">第五次繁栄期</span>
+                </div>
+                <p>第五次繁栄期の到来を記念する大規模な文化祭典。企業国家の技術成果とEros-7の芸術文化が融合した象徴的イベント。</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; E16星系百科事典プロジェクト | 最終更新: E208年</p>
+        </div>
+    </footer>
+
+    <style>
+        .category-header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 40px 0;
+            background: linear-gradient(135deg, rgba(0, 212, 255, 0.1), rgba(74, 144, 255, 0.1));
+            border-radius: 20px;
+        }
+
+        .category-header h1 {
+            font-size: 3rem;
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+
+        .category-header p {
+            font-size: 1.2rem;
+            color: #666;
+        }
+
+        .culture-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .culture-card {
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(240, 250, 255, 0.9));
+            border-radius: 15px;
+            padding: 25px;
+            border-left: 4px solid #00d4ff;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .culture-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 212, 255, 0.2);
+            border-left-width: 6px;
+        }
+
+        .culture-card h3 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+        }
+
+        .culture-card h3 a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .culture-card h3 a:hover {
+            color: #00d4ff;
+        }
+
+        .culture-meta {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+            flex-wrap: wrap;
+        }
+
+        .culture-meta span {
+            padding: 4px 12px;
+            border-radius: 15px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+        .category {
+            background: linear-gradient(45deg, #00d4ff, #4a90ff);
+            color: white;
+        }
+
+        .origin {
+            background: linear-gradient(45deg, #ff4da6, #ff6b9d);
+            color: white;
+        }
+
+        .era {
+            background: linear-gradient(45deg, #4a90ff, #00d4ff);
+            color: white;
+        }
+
+        .culture-card p {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+            .culture-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+
+    <script src="../script.js"></script>
+</body>
+</html>

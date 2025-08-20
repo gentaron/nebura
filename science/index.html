@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>科学理論一覧 - E16星系百科事典</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <h1 class="site-title"><a href="../index.html" style="color: inherit; text-decoration: none;">E16星系百科事典</a></h1>
+            <nav class="main-nav">
+                <a href="../index.html">ホーム</a>
+                <a href="../people/">人物</a>
+                <a href="../places/">場所</a>
+                <a href="../technology/">技術</a>
+                <a href="../events/">事件</a>
+                <a href="../medical/">医学</a>
+                <a href="../culture/">文化</a>
+                <a href="../movements/">運動</a>
+                <a href="../science/">科学</a>
+            </nav>
+            <div class="search-box">
+                <input type="text" placeholder="記事を検索..." id="searchInput">
+                <button id="searchBtn">検索</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <header class="category-header">
+            <h1>科学理論一覧</h1>
+            <p>E16星系で発展した革新的な科学理論と多次元物理学の研究成果の詳細な記録です。</p>
+        </header>
+
+        <section class="science-grid">
+            <div class="science-card">
+                <h3><a href="10-dimensional-holazm-theory.html">10次元ホラズム理論</a></h3>
+                <div class="science-meta">
+                    <span class="category">理論物理学</span>
+                    <span class="discoverer">ティムール・シャー</span>
+                    <span class="era">移民初期</span>
+                </div>
+                <p>ティムール・シャーが提唱した10次元空間の統一理論。量子重力場の操作により高次元空間へのアクセスを可能にし、E16星系の技術的基盤を築いた。</p>
+            </div>
+
+            <div class="science-card">
+                <h3><a href="psychedelic-cosmology.html">サイケデリック・コスモロジー</a></h3>
+                <div class="science-meta">
+                    <span class="category">宇宙論</span>
+                    <span class="discoverer">テミルタロン</span>
+                    <span class="era">技術啓蒙時代</span>
+                </div>
+                <p>テミルタロンが開発した意識と宇宙構造の関連性を探求する理論。多次元宇宙における意識の役割と、精神的覚醒による次元認識の拡張を研究。</p>
+            </div>
+
+            <div class="science-card">
+                <h3><a href="multidimensional-dawn.html">多次元の黎明</a></h3>
+                <div class="science-meta">
+                    <span class="category">次元物理学</span>
+                    <span class="discoverer">テミルタロン派</span>
+                    <span class="era">技術啓蒙時代</span>
+                </div>
+                <p>フン（8次元）、ササン（9次元）、ホラズム（10次元）、ティムール（11次元）の4つの高次元領域を統合的に理解する理論体系。</p>
+            </div>
+
+            <div class="science-card">
+                <h3><a href="quantum-finance-core.html">量子ファイナンス・コア理論</a></h3>
+                <div class="science-meta">
+                    <span class="category">経済物理学</span>
+                    <span class="discoverer">企業連合研究所</span>
+                    <span class="era">第四次繁栄期</span>
+                </div>
+                <p>量子力学的原理を経済システムに応用した革新的理論。nトークン経済の量子的振る舞いと、市場の不確定性原理を数学的に解明。</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; E16星系百科事典プロジェクト | 最終更新: E208年</p>
+        </div>
+    </footer>
+
+    <style>
+        .category-header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 40px 0;
+            background: linear-gradient(135deg, rgba(157, 74, 255, 0.1), rgba(191, 134, 255, 0.1));
+            border-radius: 20px;
+        }
+
+        .category-header h1 {
+            font-size: 3rem;
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+
+        .category-header p {
+            font-size: 1.2rem;
+            color: #666;
+        }
+
+        .science-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .science-card {
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(248, 245, 255, 0.9));
+            border-radius: 15px;
+            padding: 25px;
+            border-left: 4px solid #9d4aff;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .science-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(157, 74, 255, 0.2);
+            border-left-width: 6px;
+        }
+
+        .science-card h3 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+        }
+
+        .science-card h3 a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .science-card h3 a:hover {
+            color: #9d4aff;
+        }
+
+        .science-meta {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+            flex-wrap: wrap;
+        }
+
+        .science-meta span {
+            padding: 4px 12px;
+            border-radius: 15px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+        .category {
+            background: linear-gradient(45deg, #9d4aff, #bf86ff);
+            color: white;
+        }
+
+        .discoverer {
+            background: linear-gradient(45deg, #00d4ff, #4a90ff);
+            color: white;
+        }
+
+        .era {
+            background: linear-gradient(45deg, #ff4da6, #ff6b9d);
+            color: white;
+        }
+
+        .science-card p {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+            .science-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+
+    <script src="../script.js"></script>
+</body>
+</html>

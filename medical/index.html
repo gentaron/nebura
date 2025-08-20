@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>医学・健康一覧 - E16星系百科事典</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <h1 class="site-title"><a href="../index.html" style="color: inherit; text-decoration: none;">E16星系百科事典</a></h1>
+            <nav class="main-nav">
+                <a href="../index.html">ホーム</a>
+                <a href="../people/">人物</a>
+                <a href="../places/">場所</a>
+                <a href="../technology/">技術</a>
+                <a href="../events/">事件</a>
+                <a href="../medical/">医学</a>
+                <a href="../culture/">文化</a>
+                <a href="../movements/">運動</a>
+            </nav>
+            <div class="search-box">
+                <input type="text" placeholder="記事を検索..." id="searchInput">
+                <button id="searchBtn">検索</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <header class="category-header">
+            <h1>医学・健康一覧</h1>
+            <p>E16星系における医学技術、健康問題、および生物学的現象の詳細な記録です。</p>
+        </header>
+
+        <section class="medical-grid">
+            <div class="medical-card">
+                <h3><a href="energy-depletion-syndrome.html">エネルギー枯渇症</a></h3>
+                <div class="medical-meta">
+                    <span class="category">症候群</span>
+                    <span class="affected">男性労働者</span>
+                    <span class="era">搾取技術時代</span>
+                </div>
+                <p>Eros-7の男性労働者に見られる慢性疲労症候群。搾取生物による長期的なエネルギー吸収により、免疫力低下、筋力減退、精神的抑鬱状態を引き起こす。</p>
+            </div>
+
+            <div class="medical-card">
+                <h3><a href="squeezing-suppressant.html">搾取抑制剤</a></h3>
+                <div class="medical-meta">
+                    <span class="category">薬物治療</span>
+                    <span class="affected">搾取生物感染者</span>
+                    <span class="era">第四次繁栄期</span>
+                </div>
+                <p>搾取生物の活動を一時的に抑制する薬剤。副作用として激しい禁断症状を伴うため、医療監督下での使用が義務付けられている。</p>
+            </div>
+
+            <div class="medical-card">
+                <h3><a href="squeezing-organisms-crisis.html">搾取生物の危機</a></h3>
+                <div class="medical-meta">
+                    <span class="category">生物災害</span>
+                    <span class="affected">Eros-7全住民</span>
+                    <span class="era">第三次繁栄期</span>
+                </div>
+                <p>搾取生物の突然変異により引き起こされた生態系危機。シルヴィア・クロウのエスパー能力による制御技術が開発されるまで、社会機能が麻痺状態に陥った。</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; E16星系百科事典プロジェクト | 最終更新: E208年</p>
+        </div>
+    </footer>
+
+    <style>
+        .category-header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 40px 0;
+            background: linear-gradient(135deg, rgba(255, 77, 166, 0.1), rgba(255, 107, 157, 0.1));
+            border-radius: 20px;
+        }
+
+        .category-header h1 {
+            font-size: 3rem;
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+
+        .category-header p {
+            font-size: 1.2rem;
+            color: #666;
+        }
+
+        .medical-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .medical-card {
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(255, 240, 248, 0.9));
+            border-radius: 15px;
+            padding: 25px;
+            border-left: 4px solid #ff4da6;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .medical-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(255, 77, 166, 0.2);
+            border-left-width: 6px;
+        }
+
+        .medical-card h3 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+        }
+
+        .medical-card h3 a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .medical-card h3 a:hover {
+            color: #ff4da6;
+        }
+
+        .medical-meta {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+            flex-wrap: wrap;
+        }
+
+        .medical-meta span {
+            padding: 4px 12px;
+            border-radius: 15px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+        .category {
+            background: linear-gradient(45deg, #ff4da6, #ff6b9d);
+            color: white;
+        }
+
+        .affected {
+            background: linear-gradient(45deg, #ff6b4a, #ff8c69);
+            color: white;
+        }
+
+        .era {
+            background: linear-gradient(45deg, #4a90ff, #00d4ff);
+            color: white;
+        }
+
+        .medical-card p {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+            .medical-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+
+    <script src="../script.js"></script>
+</body>
+</html>

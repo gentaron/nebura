@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>社会運動一覧 - E16星系百科事典</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <h1 class="site-title"><a href="../index.html" style="color: inherit; text-decoration: none;">E16星系百科事典</a></h1>
+            <nav class="main-nav">
+                <a href="../index.html">ホーム</a>
+                <a href="../people/">人物</a>
+                <a href="../places/">場所</a>
+                <a href="../technology/">技術</a>
+                <a href="../events/">事件</a>
+                <a href="../medical/">医学</a>
+                <a href="../culture/">文化</a>
+                <a href="../movements/">運動</a>
+            </nav>
+            <div class="search-box">
+                <input type="text" placeholder="記事を検索..." id="searchInput">
+                <button id="searchBtn">検索</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <header class="category-header">
+            <h1>社会運動一覧</h1>
+            <p>E16星系の歴史を動かした政治運動、社会変革運動、抵抗組織の詳細な記録です。</p>
+        </header>
+
+        <section class="movements-grid">
+            <div class="movement-card">
+                <h3><a href="shadow-union.html">シャドウ・ユニオン</a></h3>
+                <div class="movement-meta">
+                    <span class="category">労働運動</span>
+                    <span class="origin">Eros-7</span>
+                    <span class="stance">抵抗組織</span>
+                </div>
+                <p>マトリカル社会に対抗する男性労働者の地下組織。搾取技術の廃止と男女平等社会の実現を目標とする秘密結社として活動。</p>
+            </div>
+
+            <div class="movement-card">
+                <h3><a href="techno-religious-movement.html">テクノ宗教運動</a></h3>
+                <div class="movement-meta">
+                    <span class="category">宗教運動</span>
+                    <span class="origin">星々の交響曲</span>
+                    <span class="stance">技術崇拝</span>
+                </div>
+                <p>テミルタロンが提唱した科学技術と神秘主義を融合した宗教運動。次元極地平技術を神聖視し、多次元宇宙との精神的交流を追求。</p>
+            </div>
+
+            <div class="movement-card">
+                <h3><a href="shadow-rebellion.html">シャドウ・リベリオン</a></h3>
+                <div class="movement-meta">
+                    <span class="category">武装蜂起</span>
+                    <span class="origin">星々の交響曲</span>
+                    <span class="stance">反企業</span>
+                </div>
+                <p>コーラの疫病後に結成された反企業武装組織。企業国家体制への不満と格差拡大に対する民衆の怒りを背景とした抵抗運動。</p>
+            </div>
+
+            <div class="movement-card">
+                <h3><a href="multicultural-agreement.html">多元文化協定</a></h3>
+                <div class="movement-meta">
+                    <span class="category">文化運動</span>
+                    <span class="origin">E16星系</span>
+                    <span class="stance">統合主義</span>
+                </div>
+                <p>ティムール・シャーが提唱した文化統合政策。異なる民族・文化間の平和共存と相互理解を促進する文化多元主義運動。</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; E16星系百科事典プロジェクト | 最終更新: E208年</p>
+        </div>
+    </footer>
+
+    <style>
+        .category-header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 40px 0;
+            background: linear-gradient(135deg, rgba(255, 107, 74, 0.1), rgba(255, 152, 102, 0.1));
+            border-radius: 20px;
+        }
+
+        .category-header h1 {
+            font-size: 3rem;
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+
+        .category-header p {
+            font-size: 1.2rem;
+            color: #666;
+        }
+
+        .movements-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .movement-card {
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(255, 248, 245, 0.9));
+            border-radius: 15px;
+            padding: 25px;
+            border-left: 4px solid #ff6b4a;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .movement-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(255, 107, 74, 0.2);
+            border-left-width: 6px;
+        }
+
+        .movement-card h3 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+        }
+
+        .movement-card h3 a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .movement-card h3 a:hover {
+            color: #ff6b4a;
+        }
+
+        .movement-meta {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+            flex-wrap: wrap;
+        }
+
+        .movement-meta span {
+            padding: 4px 12px;
+            border-radius: 15px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+        .category {
+            background: linear-gradient(45deg, #ff6b4a, #ff8c69);
+            color: white;
+        }
+
+        .origin {
+            background: linear-gradient(45deg, #4a90ff, #00d4ff);
+            color: white;
+        }
+
+        .stance {
+            background: linear-gradient(45deg, #ff4da6, #ff6b9d);
+            color: white;
+        }
+
+        .movement-card p {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+            .movements-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+
+    <script src="../script.js"></script>
+</body>
+</html>
