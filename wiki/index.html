@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E16星系百科事典 - ホーム</title>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        .wiki-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .wiki-header {
+            background: linear-gradient(145deg, var(--card-bg), #2a2a4a);
+            padding: 40px;
+            border-radius: 20px;
+            margin-bottom: 40px;
+            border: 2px solid var(--primary);
+            text-align: center;
+        }
+
+        .wiki-header h1 {
+            font-size: 2.5rem;
+            background: linear-gradient(45deg, var(--primary), var(--secondary), var(--accent));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 15px;
+        }
+
+        .wiki-header p {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+        }
+
+        .wiki-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin-bottom: 40px;
+        }
+
+        .wiki-card {
+            background: linear-gradient(145deg, var(--card-bg), #2a2a4a);
+            border-radius: 20px;
+            padding: 25px;
+            border: 2px solid transparent;
+            transition: all 0.3s;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+
+        .wiki-card:hover {
+            border-color: var(--primary);
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(74, 144, 255, 0.3);
+        }
+
+        .wiki-card-icon {
+            font-size: 3rem;
+            margin-bottom: 15px;
+        }
+
+        .wiki-card h3 {
+            color: var(--secondary);
+            margin-bottom: 10px;
+        }
+
+        .wiki-card p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        .wiki-card-links {
+            margin-top: 15px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .wiki-card-links a {
+            color: var(--primary);
+            font-size: 0.85rem;
+            text-decoration: none;
+            padding: 4px 10px;
+            background: rgba(74, 144, 255, 0.1);
+            border-radius: 12px;
+            transition: all 0.3s;
+        }
+
+        .wiki-card-links a:hover {
+            background: var(--primary);
+            color: white;
+        }
+
+        .quick-links {
+            background: rgba(26, 26, 58, 0.5);
+            padding: 30px;
+            border-radius: 20px;
+            margin-bottom: 40px;
+        }
+
+        .quick-links h2 {
+            color: var(--accent);
+            margin-bottom: 20px;
+        }
+
+        .link-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+
+        .link-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 12px 15px;
+            background: rgba(26, 26, 58, 0.8);
+            border-radius: 12px;
+            text-decoration: none;
+            color: var(--text);
+            transition: all 0.3s;
+        }
+
+        .link-item:hover {
+            background: var(--primary);
+            transform: translateX(5px);
+        }
+
+        .link-item span {
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <h1 class="site-title">🌌 E16星系百科事典</h1>
+            <nav class="main-nav">
+                <a href="../index.html">🏠 ホーム</a>
+                <a href="../card-game.html">🃏 カードゲーム</a>
+                <a href="index.html">📚 百科事典</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="wiki-container">
+        <div class="wiki-header">
+            <h1>E16星系百科事典</h1>
+            <p>E528年の歴史、人物、技術、事件を収録した統合データベース</p>
+        </div>
+
+        <div class="wiki-grid">
+            <a href="people/index.html" class="wiki-card">
+                <div class="wiki-card-icon">👥</div>
+                <h3>人物</h3>
+                <p>528年の歴史に名を刻んだ指導者、戦士、技術者们</p>
+                <div class="wiki-card-links">
+                    <a href="people/timur-shah.html">ティムール・シャー</a>
+                    <a href="people/layla.html">レイラ</a>
+                    <a href="people/mina.html">ミナ</a>
+                    <a href="people/iris.html">アイリス</a>
+                </div>
+            </a>
+
+            <a href="places/index.html" class="wiki-card">
+                <div class="wiki-card-icon">🌍</div>
+                <h3>惑星・場所</h3>
+                <p>シンフォニー・オブ・スターズ、Gigapolis、Eros-7など</p>
+                <div class="wiki-card-links">
+                    <a href="places/symphony-of-stars.html">星々の交響曲</a>
+                    <a href="places/gigapolis.html">Gigapolis</a>
+                    <a href="places/eros-7.html">Eros-7</a>
+                    <a href="places/valoria.html">Valoria</a>
+                </div>
+            </a>
+
+            <a href="technology/index.html" class="wiki-card">
+                <div class="wiki-card-icon">⚙️</div>
+                <h3>技術</h3>
+                <p>次元極地平、ペルセポネ、搾取生物技術など</p>
+                <div class="wiki-card-links">
+                    <a href="technology/dimension-horizon.html">次元極地平</a>
+                    <a href="technology/persephone.html">ペルセポネ</a>
+                    <a href="technology/squeezing.html">搾取生物</a>
+                    <a href="technology/n-token.html">nトークン</a>
+                </div>
+            </a>
+
+            <a href="factions/index.html" class="wiki-card">
+                <div class="wiki-card-icon">⚔️</div>
+                <h3>勢力・組織</h3>
+                <p>AURALIS、Gigapolis圈、クレセント大地方など</p>
+                <div class="wiki-card-links">
+                    <a href="factions/auralis.html">AURALIS</a>
+                    <a href="factions/gigapolis.html">Gigapolis圈</a>
+                    <a href="factions/crescent.html">クレセント</a>
+                    <a href="factions/alpha-venom.html">Alpha Venom</a>
+                </div>
+            </a>
+
+            <a href="events/index.html" class="wiki-card">
+                <div class="wiki-card-icon">📅</div>
+                <h3>事件・時代</h3>
+                <p>大移民から現代まで、主要な歴史的イベント</p>
+                <div class="wiki-card-links">
+                    <a href="events/great-migration.html">大移民</a>
+                    <a href="events/maastricht.html">マーストリヒト革命</a>
+                    <a href="events/slime-crisis.html">スライム危機</a>
+                    <a href="events/summit.html">連邦サミット</a>
+                </div>
+            </a>
+
+            <a href="society/index.html" class="wiki-card">
+                <div class="wiki-card-icon">🏛️</div>
+                <h3>社会・制度</h3>
+                <p>A籍制度、マトリカル社会、テクロ萨斯など</p>
+                <div class="wiki-card-links">
+                    <a href="society/a-rank.html">A籍制度</a>
+                    <a href="society/matrical.html">マトリカル社会</a>
+                    <a href="society/teclassus.html">テクロ萨斯系譜</a>
+                </div>
+            </a>
+        </div>
+
+        <div class="quick-links">
+            <h2>🔗 クイックリンク</h2>
+            <div class="link-grid">
+                <a href="../card-game.html" class="link-item">
+                    <span>🃏</span> カードゲーム
+                </a>
+                <a href="people/mina.html" class="link-item">
+                    <span>👩‍💻</span> ミナの設定
+                </a>
+                <a href="factions/auralis.html" class="link-item">
+                    <span>🎵</span> AURALISとは
+                </a>
+                <a href="places/symphony-of-stars.html" class="link-item">
+                    <span>🌌</span> 惑星詳解
+                </a>
+                <a href="events/summit.html" class="link-item">
+                    <span>🤝</span> 連邦サミット
+                </a>
+                <a href="technology/liminal-forge.html" class="link-item">
+                    <span>✨</span> リミナル・フォージ
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; E16星系百科事典プロジェクト | E528</p>
+        </div>
+    </footer>
+</body>
+</html>

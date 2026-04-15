@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ミナ・エウレカ・アーネスト - E16星系百科事典</title>
+    <link rel="stylesheet" href="../../style.css">
+    <style>
+        .wiki-page {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        .wiki-header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 40px;
+            background: linear-gradient(145deg, rgba(30, 58, 95, 0.5), rgba(42, 95, 143, 0.5));
+            border-radius: 20px;
+            border: 2px solid var(--primary);
+        }
+        .wiki-header h1 {
+            font-size: 2.5rem;
+            background: linear-gradient(45deg, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .profile {
+            display: grid;
+            grid-template-columns: auto 1fr;
+            gap: 30px;
+            align-items: start;
+        }
+        .profile-icon {
+            width: 200px;
+            height: 200px;
+            background: linear-gradient(145deg, #1e3a5f, #2a5f8f);
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 6rem;
+            border: 3px solid var(--primary);
+        }
+        .profile-info h2 {
+            color: var(--secondary);
+            margin-bottom: 20px;
+        }
+        .info-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .info-table th, .info-table td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+        .info-table th {
+            background: rgba(74, 144, 255, 0.2);
+            color: var(--secondary);
+            width: 150px;
+        }
+        .content-section {
+            background: rgba(26, 26, 58, 0.5);
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+        }
+        .content-section h2 {
+            color: var(--secondary);
+            border-bottom: 2px solid var(--primary);
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .timeline {
+            position: relative;
+            padding-left: 30px;
+        }
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 10px;
+            top: 0;
+            bottom: 0;
+            width: 3px;
+            background: linear-gradient(to bottom, var(--primary), var(--accent));
+        }
+        .timeline-item {
+            position: relative;
+            margin-bottom: 25px;
+        }
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -24px;
+            top: 5px;
+            width: 12px;
+            height: 12px;
+            background: var(--primary);
+            border-radius: 50%;
+        }
+        .timeline-year {
+            color: var(--accent);
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .quote {
+            background: rgba(74, 144, 255, 0.1);
+            border-left: 4px solid var(--accent);
+            padding: 20px;
+            margin: 20px 0;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <h1 class="site-title">🌌 E16星系百科事典</h1>
+            <nav class="main-nav">
+                <a href="../../index.html">🏠 ホーム</a>
+                <a href="../../card-game.html">🃏 カードゲーム</a>
+                <a href="index.html">📚 百科事典</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="wiki-page">
+        <div class="wiki-header">
+            <h1>👩‍💻 ミナ・エウレカ・アーネスト</h1>
+            <p>E499年8月16日生まれ | AURALIS Collective 第二世代</p>
+            <p>総合プロデューサー | celestial × avant-garde</p>
+        </div>
+
+        <div class="content-section">
+            <h2>プロフィール</h2>
+            <div class="profile">
+                <div class="profile-icon">👩‍💻</div>
+                <div class="profile-info">
+                    <table class="info-table">
+                        <tr>
+                            <th>氏名</th>
+                            <td>ミナ・エウレカ・アーネスト (Mina Eureka Ernst)</td>
+                        </tr>
+                        <tr>
+                            <th>生年月日</th>
+                            <td>E499年8月16日 / 西暦3999年8月16日</td>
+                        </tr>
+                        <tr>
+                            <th>現在年齢</th>
+                            <td>29歳 (E528時点)</td>
+                        </tr>
+                        <tr>
+                            <th>出身</th>
+                            <td>旧Dominion領・辺境コロニー「ノスタルジア」</td>
+                        </tr>
+                        <tr>
+                            <th>血液型</th>
+                            <td>AB型</td>
+                        </tr>
+                        <tr>
+                            <th>性格</th>
+                            <td>マイペース、先進的、承認欲求あり</td>
+                        </tr>
+                        <tr>
+                            <th>特技</th>
+                            <td>テニス（右腕スマッシュ）、戦略SLG（Hoi4、Civilization等）</td>
+                        </tr>
+                        <tr>
+                            <th>座右の銘</th>
+                            <td>『Veni, vidi, vici』『人生則主観』</td>
+                        </tr>
+                        <tr>
+                            <th>所属</th>
+                            <td>AURALIS Collective 第二世代</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <h2>来歴</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-year">E499 / 0歳</div>
+                    <p>旧Dominion領の辺境コロニー「ノスタルジア」で誕生。父はエンジニア、母は歴史記録官。</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">E504 / 5歳</div>
+                    <p>両親から「かつてのGigapolisの栄光」を御伽噺として聞く。セリア黄金期の传奇に心を奪われる。</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">E509 / 10歳</div>
+                    <p><strong>Alpha Venomのノスタルジア・コロニー攻撃</strong>。难民船で脱出。「重力崩壊弾頭」の間光を見て「生き残るには次の一手が必要だ」と悟る。戦略意識の芽生え。</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">E514 / 15歳</div>
+                    <p>学術都市惑星「ビブリオ」のロレンツィオ国際大学AI学部に入学。歴史データを数式に変換する「文明崩壊予測モデル」を研究中。</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">E521 / 22歳</div>
+                    <p>優秀卒業。「Veni, vidi, vici」を胸にバックパッカーとして旅開始。ブログ『ミナの宇宙則攻略ログ』開設。</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">E522頃</div>
+                    <p><strong>AURALIS Collective 第二世代に加入</strong>。LaylaとJenの招集に応じる。</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">E524 / 25歳</div>
+                    <p>諸世界連邦サミット（アルダ・シティ）に参加。地球AD2026年の情報をリアルタイム参照。ナシゴレン初体験。「この時代が私たちの文明の遠い原点か」という気づき。</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">E525 / 26歳</div>
+                    <p><strong>リミナル・フォージ</strong>構想から設計・実装へ。Apoloniumの次元触媒応用に成功。</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">E528 / 29歳（現在）</div>
+                    <p>マレーシア系食文化圏でナシゴレン・アヤムを食しながら「第一回宇宙連合会合」をモニタリング中。「この展開、Hoi4で見たパターンだ」と嘲る。Genesis Vault 2,000本突破。</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <h2>特徴・能力</h2>
+            <div class="quote">
+                <p>「歴史は感情で動くが、数式で予測できる部分もある」</p>
+            </div>
+            <p>
+                ミナの最大の特技は、<strong>戦略的思考</strong>である。Hoi4（Hearts of Iron IV）やCivilizationなどの
+                戦略シミュレーションゲームに没頭し、「文明の盛衰は再現可能なパターンを持つ」という確信を得た。
+            </p>
+            <p>
+                AI研究においては、歴史データ（バーズ帝国崩壊、ロンバルディア戦争、Alpha Kane反乱、エヴァトロン支配など）を
+                数式に変換する「文明崩壊予測モデル」を開発。この分析フレームワークが後のAURALIS活動にも生きている。
+            </p>
+        </div>
+
+        <div class="content-section">
+            <h2>リミナル・フォージへの道的</h2>
+            <p>
+                E524年の諸世界連邦サミットで、ミナは史上初めて「地球AD2026年」の情報をリアルタイム参照した。
+                エリュセオン代表がDimension Horizonデータベースから提出した「地球2026年のAI技術動向」を見た瞬間、
+                「この時代が私たちの文明の遠い原点か」という惊天動地の気づきを得た。
+            </p>
+            <p>
+                この気づきが、後のリミナル・フォージ・プロジェクト（地球2026交信）の发端となった。
+                リミナル・フォージは、E525年にApolonium化に成功し、地球2026年への時相放送が始まる。
+            </p>
+        </div>
+
+        <div class="content-section">
+            <h2>関連項目</h2>
+            <ul>
+                <li><a href="../factions/auralis.html">AURALIS Collective</a></li>
+                <li><a href="../technology/liminal-forge.html">リミナル・フォージ</a></li>
+                <li><a href="../events/summit.html">諸世界連邦サミット (E524)</a></li>
+                <li><a href="layla.html">レイラ・ヴィレル・ノヴァ</a></li>
+                <li><a href="../places/gigapolis.html">Gigapolis</a></li>
+            </ul>
+        </div>
+
+        <div style="text-align: center; margin-top: 40px;">
+            <a href="index.html" style="color: var(--primary);">← 人物列表へ</a> |
+            <a href="../../index.html" style="color: var(--primary);">🏠 ホーム</a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; E16星系百科事典プロジェクト | E528</p>
+        </div>
+    </footer>
+</body>
+</html>
